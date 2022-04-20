@@ -57,25 +57,8 @@ class App extends React.Component {
                 </span>
               </div>
               <form class="form-container">
-                <label for="msg">
-                  <b>Message</b>
-                </label>
-                <textarea
-                  placeholder="Type message.."
-                  name="msg"
-                  required
-                ></textarea>
 
-                <button type="submit" class="btn">
-                  Send
-                </button>
-                <button
-                  type="button"
-                  class="btn cancel"
-                  onClick={() => this.setState({ open: false })}
-                >
-                  Close
-                </button>
+
               </form>
             </div>
           )}

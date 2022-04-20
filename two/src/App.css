@@ -78,7 +78,9 @@ body {font-family: Arial, Helvetica, sans-serif;}
 }
 /* Add styles to the form container */
 .form-container {
+  min-width: 300px;
   max-width: 300px;
+  min-height: 500px;
   padding: 10px;
   background-color: white;
 }
